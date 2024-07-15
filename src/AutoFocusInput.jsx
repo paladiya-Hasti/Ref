@@ -13,6 +13,7 @@ const AutoFocusInput = () => {
     <div>
         <input type="text" ref={id} />
         <button onClick={handle}>submit</button>
+        <hr></hr>
     </div>
   )
 }
